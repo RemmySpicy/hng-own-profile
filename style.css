@@ -45,6 +45,7 @@ body {
 }
 
 .data-item img {
+    display: block;
     max-height: 450px;
     width: 120%;
     object-fit: cover;

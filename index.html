@@ -3,36 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <title>My HNG Profile</title>
 </head>
 <body>
     <main class="profile">
-        <ul class="data-list">
-            <li class="data-item">
-                Slack Name:
-                <span data-testid="SlackUserName">Remilekun Olayinka (RemmySpicy)</span>
-            </li>
-            <li>
-                <img src="./me.jpg" alt="RemmySpicy" class="profile-image">
-            </li>
-            <li class="data-item">
-                Current Day Of The Week:
-                <span data-testid="currentDayOfTheWeek">Friday</span>
-            </li>
-            <li class="data-item">
-                currentUTCTime:
-                <span data-testid="currentUTCTime">1694181689371</span>
-            </li>
-            <li class="data-item">
-                Track:
-                <span data-testid="myTrack">Frontend</span>
-            </li>
-            <li class="data-item">
-                GitHub URL:
-                <a href="https://github.com/RemmySpicy/hng-own-profile" data-testid="“githubURL”">Github Repository</a>
-            </li>
-        </ul>
+        <div class="data-container">
+            <ul class="data-list">
+                <li class="data-item">
+                    Slack Name:
+                    <span data-testid="SlackUserName">Remilekun Olayinka (RemmySpicy)</span>
+                </li>
+                <li class="data-item">
+                    <img src="./me.jpg" alt="RemmySpicy" class="profile-image">
+                </li>
+                <li class="data-item">
+                    Current Day Of The Week:
+                    <span data-testid="currentDayOfTheWeek">Friday</span>
+                </li>
+                <li class="data-item">
+                    Current UTC Time:
+                    <span data-testid="currentUTCTime">1694181689371</span>
+                </li>
+                <li class="data-item">
+                    Track:
+                    <span data-testid="myTrack">Frontend</span>
+                </li>
+                <li class="data-item">
+                    GitHub URL:
+                    <a href="https://github.com/RemmySpicy/hng-own-profile" data-testid="“githubURL”">Github Repository</a>
+                </li>
+            </ul>
+        </div>
     </main>
 </body>
 </html>

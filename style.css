@@ -8,7 +8,6 @@
 
 body {
     font-family: sans-serif;
-    font-size: 18px;
     background-color: #CBD5C7;
     padding: 4rem 0;
     display: grid;
@@ -16,11 +15,38 @@ body {
     place-items: center;
 }
 
-.data-list {
-    padding: 2rem;
+.data-container {
+    padding-block: 2rem;
     text-align: center;
-    list-style: none;
+    min-width: 500px;
     background-color: #FAFAFA;
     border-radius: 30px;
     box-shadow: 0 10px 50px rgb(0 0 0 / .3);
+    overflow: hidden;
+}
+
+.data-list {
+    list-style: none;
+}
+
+.data-item {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.data-item:not(:last-of-type) {
+    margin-bottom: 1rem;
+}
+
+.data-item span {
+    display: block;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.data-item img {
+    max-height: 450px;
+    width: 120%;
+    object-fit: cover;
+    object-position: center 65%;
 }

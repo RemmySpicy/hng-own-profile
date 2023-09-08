@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: #CBD5C7;
+    padding: 4rem 0;
+    display: grid;
+    /* display: flex; */
+    place-items: center;
+}
+
+.data-list {
+    padding: 2rem;
+    text-align: center;
+    list-style: none;
+    background-color: #FAFAFA;
+    border-radius: 30px;
+    box-shadow: 0 10px 50px rgb(0 0 0 / .3);
+}
